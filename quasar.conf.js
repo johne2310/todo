@@ -170,7 +170,7 @@ module.exports = function (ctx) {
         appBundleId: 'day41.apps.todo',
         platform: 'darwin',
         version: '0.1',
-        buildVersion: '15',
+        buildVersion: '16',
         // https://github.com/electron-userland/electron-packager/blob/master/docs/api.md#options
         // OS X / Mac App Store
         // appBundleId: '',
@@ -185,8 +185,8 @@ module.exports = function (ctx) {
           'gatekeeper-assess': false,
         },
         osxNotarize: {
-          appleId: envFile.production.APPLEID,
-          appleIdPassword: envFile.production.APPLEPASSID,
+          appleId: env.production.APPLEID,
+          appleIdPassword: env.production.APPLEPASSID,
         },
       },
 
