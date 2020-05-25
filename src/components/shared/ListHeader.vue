@@ -7,9 +7,9 @@
 </template>
 
 <script>
-  export default {
-    props: ['bgColour'],
-  };
+export default {
+  props: ['bgColour'],
+};
 </script>
 
 <style scoped></style>

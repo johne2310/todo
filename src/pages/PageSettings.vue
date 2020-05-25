@@ -1,11 +1,9 @@
 <template>
   <q-page class="q-pa-md">
-    <q-list bordered separator
-    >
+    <q-list bordered separator>
       <q-item-label class="bg-blue-3 text-grey-10" header
       >Formatting
-      </q-item-label
-      >
+      </q-item-label>
 
       <!-- Toggle 12 hour time format -->
       <q-item tag="label" v-ripple>
@@ -28,8 +26,7 @@
       </q-item>
     </q-list>
 
-    <q-list bordered separator class="q-mt-sm "
-    >
+    <q-list bordered separator class="q-mt-sm ">
       <q-item-label class="bg-cyan-3 text-grey-10" header>More</q-item-label>
 
       <!-- Toggle 12 hour time format -->
