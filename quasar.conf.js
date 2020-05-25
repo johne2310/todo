@@ -166,50 +166,43 @@ module.exports = function (ctx) {
       bundler: 'builder', // 'packager' or 'builder'
 
       packager: {
-        // asar: false,
-        // appBundleId: 'day41.apps.todo',
+        asar: false,
+        appBundleId: 'day41.apps.todo',
         platform: 'win32',
-        // version: '0.1',
-        // buildVersion: '14',
+        version: '0.1',
+        buildVersion: '14',
         // https://github.com/electron-userland/electron-packager/blob/master/docs/api.md#options
         // OS X / Mac App Store
         // appBundleId: '',
         // appCategoryType: 'Productivity',
         // osxSign: 'Developer ID Application: John Evans (29Z664JJLW)',
-        // osxSign: {
-        //   identity: 'Developer ID Application: John Evans (29Z664JJLW)',
-        //   'hardened-runtime': true,
-        //   entitlements: 'src-electron/entitlements.plist',
-        //   'entitlements-inherit': 'src-electron/entitlements_child.plist',
-        //   signatureFlags: 'library',
-        //   'gatekeeper-assess': false,
-        // },
-        // osxNotarize: {
-        //   appleId: envFile.production.APPLEID,
-        //   appleIdPassword: envFile.production.APPLEPASSID,
-        // },
-        // protocol: 'myapp://path',
-        // Windows only
-        // win32metadata: { ... }
+        osxSign: {
+          identity: 'Developer ID Application: John Evans (29Z664JJLW)',
+          'hardened-runtime': true,
+          entitlements: 'src-electron/entitlements.plist',
+          'entitlements-inherit': 'src-electron/entitlements_child.plist',
+          signatureFlags: 'library',
+          'gatekeeper-assess': false,
+        },
+        osxNotarize: {
+          appleId: envFile.production.APPLEID,
+          appleIdPassword: envFile.production.APPLEPASSID,
+        },
       },
 
       builder: {
         // https://www.electron.build/configuration/configuration
-        // appId: 'day41.apps.todo',
-        // productName: 'AwesomeTodo',
-        // copyright: 'Copyright John Evans 2020',
-        // mac: {
-        //   hardenedRuntime: true,
-        //   gatekeeperAssess: false,
-        //   entitlements: 'src-electron/entitlements.plist',
-        //   entitlementsInherit: 'src-electron/entitlements.plist',
-        //   provisioningProfile:
-        //     'src-electron/Mac_Provisioning_Profile.provisionprofile',
-        // },
-
-        // packager: {
-        //   platform: 'win32',
-        // },
+        appId: 'day41.apps.todo',
+        productName: 'AwesomeTodo',
+        copyright: 'Copyright John Evans 2020',
+        mac: {
+          hardenedRuntime: true,
+          gatekeeperAssess: false,
+          entitlements: 'src-electron/entitlements.plist',
+          entitlementsInherit: 'src-electron/entitlements.plist',
+          provisioningProfile:
+            'src-electron/provisioning/Mac_Provisioning_Profile.provisionprofile',
+        },
         win: {
           target: 'nsis',
         },
