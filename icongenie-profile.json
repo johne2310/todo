@@ -1,7 +1,7 @@
 {
   "params": {
     "include": [
-      "pwa"
+      "electron"
     ],
     "icon": "my-icon.png",
     "quality": 12,
