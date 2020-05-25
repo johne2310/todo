@@ -168,9 +168,9 @@ module.exports = function (ctx) {
       packager: {
         asar: false,
         appBundleId: 'day41.apps.todo',
-        platform: 'win32',
+        platform: 'darwin',
         version: '0.1',
-        buildVersion: '14',
+        buildVersion: '15',
         // https://github.com/electron-userland/electron-packager/blob/master/docs/api.md#options
         // OS X / Mac App Store
         // appBundleId: '',
