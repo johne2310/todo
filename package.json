@@ -1,0 +1,64 @@
+{
+  "name": "awesome-todo",
+  "version": "0.1.14",
+  "description": "A test todo project in Quasar",
+  "productName": "Awesome Todo",
+  "cordovaId": "day41.apps.todo",
+  "capacitorId": "day41.apps.todo",
+  "author": "johne2310 <john@day41.com.au>",
+  "private": true,
+  "scripts": {
+    "lint": "eslint --ext .js,.vue src",
+    "dev": "QENV=production quasar dev",
+    "build": "QENV=production quasar build",
+    "dmg": "electron-installer-dmg dist/electron/\"Awesome Todo-darwin-x64\"/AwesomeTodo.app AwesomeTodo --background='src/assets/dmgBack.png' --out=build --overwrite"
+  },
+  "dependencies": {
+    "@mdi/font": "^5.1.45",
+    "@quasar/extras": "^1.8.1",
+    "acorn": "^7.1.1",
+    "dayjs": "^1.8.24",
+    "dotenv": "^8.2.0",
+    "electron-builder-squirrel-windows": "^22.6.1",
+    "electron-debug": "^3.1.0",
+    "firebase": "^7.14.2",
+    "minimist": "^1.2.5",
+    "moment": "^2.24.0",
+    "quasar": "^1.11.3",
+    "vue-i18n": "^8.0.0",
+    "vuelidate": "^0.7.5",
+    "vuex-easy-firestore": "^1.35.9",
+    "vuex-persistedstate": "^3.0.1",
+    "vuexfire": "^3.2.2"
+  },
+  "devDependencies": {
+    "@quasar/app": "^1.8.7",
+    "@quasar/quasar-app-extension-qenv": "^1.0.1",
+    "babel-eslint": "^10.0.1",
+    "devtron": "^1.4.0",
+    "electron": "^8.2.5",
+    "electron-builder": "^22.6.1",
+    "electron-devtools-installer": "^2.2.4",
+    "electron-installer-dmg": "^3.0.0",
+    "electron-notarize": "^0.3.0",
+    "electron-packager": "^14.2.1",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^4.0.0",
+    "eslint-loader": "^3.0.3",
+    "eslint-plugin-vue": "^6.1.2",
+    "vue": "^2.6.11",
+    "vue-router": "^3.1.6",
+    "vuex": "^3.3.0"
+  },
+  "engines": {
+    "node": ">= 10.18.1",
+    "npm": ">= 6.13.4",
+    "yarn": ">= 1.21.1"
+  },
+  "browserslist": [
+    "last 1 version, not dead, ie >= 11"
+  ],
+  "resolutions": {
+    "@babel/parser": "7.7.5"
+  }
+}

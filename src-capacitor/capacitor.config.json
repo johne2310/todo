@@ -1,0 +1,7 @@
+{
+  "appId": "day41.apps.todo",
+  "appName": "Awesome Todo",
+  "bundledWebRuntime": false,
+  "npmClient": "npm",
+  "webDir": "www"
+}

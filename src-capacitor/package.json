@@ -1,0 +1,12 @@
+{
+  "name": "awesome-todo",
+  "version": "0.1.12",
+  "description": "A test project for Quasar",
+  "author": "johne2310 <john@day41.com.au>",
+  "private": true,
+  "dependencies": {
+    "@capacitor/cli": "^1.0.0",
+    "@capacitor/core": "^1.0.0",
+    "@capacitor/ios": "^2.1.0"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "params": {
+    "include": [
+      "pwa"
+    ],
+    "icon": "my-icon.png",
+    "quality": 12,
+    "themeColor": "FFFFFF"
+  }
+}

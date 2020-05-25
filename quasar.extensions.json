@@ -1,0 +1,5 @@
+{
+  "@quasar/qenv": {
+    "add_qenv_to_gitignore": true
+  }
+}
