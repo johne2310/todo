@@ -1,7 +1,7 @@
 {
   "params": {
     "include": [
-      "electron"
+      "capacitor"
     ],
     "icon": "my-icon.png",
     "quality": 12,
