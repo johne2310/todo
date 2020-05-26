@@ -13,7 +13,6 @@
       ...mapActions('users', ['authStateChange']),
     },
     mounted() {
-      //setup link for Electron menu
       if ( this.$q.platform.is.electron ) {
         window.ipcRenderer.on('show-settings', () => {
           this.$router.push({ name: 'Settings' });
