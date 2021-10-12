@@ -36,7 +36,7 @@
     "@quasar/quasar-app-extension-qenv": "^1.0.1",
     "babel-eslint": "^10.0.1",
     "devtron": "^1.4.0",
-    "electron": "^8.2.5",
+    "electron": "^11.5.0",
     "electron-builder": "^22.6.1",
     "electron-devtools-installer": "^2.2.4",
     "electron-installer-dmg": "^3.0.0",
