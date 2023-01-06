@@ -32,7 +32,7 @@
     "vuexfire": "^3.2.2"
   },
   "devDependencies": {
-    "@quasar/app": "^1.8.7",
+    "@quasar/app": "^3.3.3",
     "@quasar/quasar-app-extension-qenv": "^1.0.1",
     "babel-eslint": "^10.0.1",
     "devtron": "^1.4.0",
